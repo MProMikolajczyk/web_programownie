@@ -1,0 +1,104 @@
+/* main */
+.main_tab_absolute{
+    width: 100%;
+    height: 260px;
+    margin: auto;
+    left: 0;
+    top: 100px;
+    position: absolute;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main_tab_absolute_left{
+    grid-column: 1;
+    background-color: var(--dark_blue);
+    /* border: 1px solid #fff; */
+    position: relative;
+}
+
+.main_tab_absolute_right{
+    grid-column: 2;
+    background-color: var(--yellow);
+    /* border: 1px solid #fff; */
+    position: relative;
+}
+
+#main_tab{
+    background-color: var(--yellow);
+    width: 100%;
+    height: 260px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 6fr 4fr;
+}
+
+.main_left{
+    grid-column: 1;
+    /* border: 1px solid #fff; */
+    width: 120px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark_blue);
+    margin-left: -50px;
+}
+
+.rotate{
+    transform: rotate(-90deg);
+    /* Legacy vendor prefixes that you probably don't need... */
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    /* border: 1px solid #fff; */
+    margin-top: 150px;
+    color: var(--yellow);
+}
+
+main h1{
+    text-shadow: 1px 1px 1px var(--light_blue);
+}
+
+.main_center{
+    grid-column: 2;
+    /* border: 1px solid #fff; */
+    margin-left: -76px;
+}
+
+#contact{
+    padding: 1rem;
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+
+.con{
+    padding: 3px;
+    /* border: 1px solid #fff; */
+}
+
+.con h1,i {
+    text-shadow: 2px 2px 2px var(--light_blue);
+}
+
+
+.block{
+    display: inline-block;
+}
+
+    /* show number */
+.vis{
+    display: none;
+}
+
+.main_right{
+    grid-column: 3;
+    /* border: 1px solid #fff; */
+    color: var(--dark_blue);
+}

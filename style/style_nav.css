@@ -1,0 +1,28 @@
+nav{
+    margin: auto;
+    text-align: center;
+}
+
+
+ul{
+    margin: auto;
+    /* border: 1px solid #000; */
+    width: 100%;
+    display: block;
+    height: 60px;
+    background-color: var(--dark_blue);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+
+}
+
+ul li{
+    margin: auto;
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+    color: var(--white);
+
+}

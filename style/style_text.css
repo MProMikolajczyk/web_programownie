@@ -1,0 +1,260 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.fonttext{
+    font-family: 'Ubuntu', sans-serif, 'Lato', serif;
+}
+
+/* text construction */
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif, 'Lato', serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 1rem;
+    color: var(--white);
+}
+
+p{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif, 'Lato', serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0.5rem;
+    color: var(--white);
+}
+
+/* color text */
+.lb{
+    color: var(--light_blue);
+}
+.db{
+    color: var(--dark_blue);
+}
+.y{
+    color: var(--yellow);
+}
+
+
+/* text align */
+.c{
+    text-align: center;
+}
+
+.l{
+    text-align: left;
+}
+
+.r{
+    text-align: right;
+}
+
+.j{
+    text-align: justify;
+}
+
+
+/* font-style */
+.i{
+    font-style: italic;
+}
+
+.n{
+    font-style: normal;
+    tex
+}
+
+
+/* font-size */
+
+.s5{
+    font-size: 5px;
+}
+
+.s6{
+    font-size: 6px;
+}
+
+.s7{
+    font-size: 7px;
+}
+
+.s8{
+    font-size: 8px;
+}
+
+.s9{
+    font-size: 9px;
+}
+
+.s10{
+    font-size: 10px;
+}
+
+.s11{
+    font-size: 11px;
+}
+
+.s12{
+    font-size: 12px;
+}9
+
+.s13{
+    font-size: 13px;
+}
+
+.s14{
+    font-size: 14px;
+}
+
+.s15{
+    font-size: 15px;
+}
+
+.s16{
+    font-size: 16px;
+}
+
+.s17{
+    font-size: 17px;
+}
+
+.s18{
+    font-size: 18px;
+}
+
+.s19{
+    font-size: 19px;
+}
+
+.s20{
+    font-size: 20px;
+}
+
+.s21{
+    font-size: 21px;
+}
+
+.s22{
+    font-size: 23px;
+}
+
+.s23{
+    font-size: 23px;
+}
+
+.s24{
+    font-size: 24px;
+}
+
+.s25{
+    font-size: 25px;
+}
+
+.s30{
+    font-size: 30px;
+}
+
+.s35{
+    font-size: 35px;
+}
+
+.s40{
+    font-size: 40px;
+}
+
+.s45{
+    font-size: 45px;
+}
+
+.s50{
+    font-size: 50px;
+}
+
+.s55{
+    font-size: 55px;
+}
+
+.s60{
+    font-size: 60px;
+}
+
+.s65{
+    font-size: 65px;
+}
+
+.s70{
+    font-size: 70px;
+}
+
+.s75{
+    font-size: 75px;
+}
+
+.s80{
+    font-size: 80px;
+}
+
+.s85{
+    font-size: 85px;
+}
+
+.s90{
+    font-size: 90px;
+}
+
+.s95{
+    font-size: 95px;
+}
+
+.s100{
+    font-size: 100px;
+}
+
+.s105{
+    font-size: 105px;
+}
+
+.s110{
+    font-size: 110px;
+}
+
+.s115{
+    font-size: 115px;
+}
+
+.s120{
+    font-size: 120px;
+}
+
+.s125{
+    font-size: 125px;
+}
+
+.s130{
+    font-size: 130px;
+}
+
+.s135{
+    font-size: 135px;
+}
+
+/* font weight */
+
+.w1{
+    font-weight: 100;
+}
+
+.w2{
+    font-weight: 300;
+}
+
+.w3{
+    font-weight: 500;
+}
+
+.w4{
+    font-weight: 900;
+}

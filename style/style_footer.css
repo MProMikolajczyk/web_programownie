@@ -1,0 +1,35 @@
+/* footer */
+#footer{
+    height: 58px;
+    background-color: var(--dark_blue);
+    padding: 1px;
+    width: 35%;
+}
+
+.absoluteFooter{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    left: 0;
+    bottom: 50;
+    position: absolute;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.absolute_leftFooter{
+    grid-column: 1;
+    background-color: var(--dark_blue);
+    /* border: 1px solid #fff; */
+    position: relative;
+    margin-right: 300px;
+}
+
+.absolute_rightFooter{
+    grid-column: 2;
+    background-color: var(--dark_blue);
+    /* border: 1px solid #fff; */
+    position: relative;
+    display: none;
+}

@@ -1,0 +1,55 @@
+/* section develop grafic  */
+.ZG{
+    height: 58px;
+    background-color: var(--dark_blue);
+    padding: 1px;
+    margin-right: 70px;
+
+}
+
+.absoluteZG{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    left: 0;
+    /* top: 1790px; */
+    bottom: 884px;
+    position: absolute;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.absolute_leftZG{
+    grid-column: 1;
+    background-color: var(--dark_blue);
+    /* border: 1px solid #fff; */
+    position: relative;
+    margin-right: 300px;
+}
+
+.absolute_rightZG{
+    grid-column: 2;
+    background-color: var(--dark_blue);
+    /* border: 1px solid #fff; */
+    position: relative;
+    display: none;
+}
+
+.ContainerZG{
+    width: 1539px;
+    height: 684;
+    /* border: 1px solid #fff; */
+    margin: auto;
+
+}
+
+.ArticleZG{
+    border: 1px solid var(--yellow);
+    display: inline-block;
+    width: 260px;
+    height: 300px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(116, 152, 210, 0.9);
+}

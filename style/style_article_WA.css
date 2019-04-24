@@ -1,0 +1,63 @@
+/* section realized APP  */
+.WA{
+    height: 58px;
+    background-color: var(--dark_blue);
+    padding: 1px;
+    margin-left: 70px;
+}
+
+.absoluteWA{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    left: 0;
+    top: 410px;
+    position: absolute;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.absolute_leftWA{
+    grid-column: 1;
+    background-color: var(--dark_blue);
+    /* border: 1px solid #fff; */
+    position: relative;
+    display: none;
+    height: 720px;
+}
+
+.absolute_rightWA{
+    grid-column: 2;
+    background-color: var(--dark_blue);
+    /* border: 1px solid #fff; */
+    position: relative;
+}
+
+.ContainerWA{
+    max-width: 1475px;
+    max-height: auto;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 3rem;
+}
+
+.ArticleLeftWA{
+    grid-column: 1;
+    border: 1px solid var(--yellow);
+    width: 714px;
+    height: 390px;
+    background-color: rgba(116, 152, 210, 0.9);
+}
+
+.ArticleRightWA{
+    grid-column: 2;
+    border: 1px solid var(--yellow);
+    width: 708px;
+    height: 390px;
+    background-color: rgba(116, 152, 210, 0.9);
+
+}
