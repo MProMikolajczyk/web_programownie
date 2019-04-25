@@ -59,5 +59,9 @@
     width: 708px;
     height: 390px;
     background-color: rgba(116, 152, 210, 0.9);
+}
 
+.float_right{
+    float: right;
+    padding: 1rem;;
 }

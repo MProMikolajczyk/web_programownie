@@ -28,3 +28,12 @@ a:focus .hidd{
 a:focus .vis{
     display: inline-block;
 }
+
+a:hover .float_right{
+    text-shadow: 3px 3px 3px var(--white);
+}
+
+a:hover h3{
+    text-shadow: 3px 3px 3px var(--dark_blue);
+    color: var(--yellow);
+}
