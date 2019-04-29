@@ -1,4 +1,8 @@
 /* section realized APP  */
+#sectionWA{
+    clear: both;
+}
+
 .WA{
     height: 58px;
     background-color: var(--dark_blue);
@@ -25,6 +29,7 @@
     position: relative;
     display: none;
     height: 720px;
+    clear: both;
 }
 
 .absolute_rightWA{
@@ -64,4 +69,50 @@
 .float_right{
     float: right;
     padding: 1rem;;
+}
+
+/* programs */
+
+.ArticleOne{
+    grid-column: 1/2;
+    border: 1px solid var(--yellow);
+    width: 90%;
+    height: 100%;
+    background-color: rgba(116, 152, 210, 0.9);
+    margin: 0 5rem;
+}
+
+@media screen and (max-width: 1487px) {
+    .ContainerWA{
+        grid-template-columns: 1fr;
+    }
+
+    .ArticleLeftWA{
+        grid-column: auto;
+        margin: auto;
+    }
+
+    .ArticleRightWA{
+        grid-column: auto;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .ArticleOne{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .ArticleLeftWA{
+        width: auto;
+        height: auto;
+    }
+
+    .ArticleRightWA{
+        width: auto;
+        height: auto;
+    }
 }

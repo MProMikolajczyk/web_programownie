@@ -17,7 +17,7 @@ body{
 
 .limt_page{
     position: relative;
-    width: 1901px;
+    max-width: 1901px;
     border: 3px solid var(--dark_blue);
     height: auto;
     margin: auto;
@@ -25,7 +25,7 @@ body{
 
 .table_bacgtoud{
     height: auto;
-    width: 1620px;
+    max-width: 1620px;
     margin: auto;
     padding: 0;
 }

@@ -1,4 +1,8 @@
 /* section develop grafic  */
+#sectionZG{
+    clear: both;
+}
+
 .ZG{
     height: 58px;
     background-color: var(--dark_blue);
@@ -13,7 +17,7 @@
     margin: auto;
     left: 0;
     /* top: 1790px; */
-    bottom: 884px;
+    bottom: 878px;
     position: absolute;
     z-index: -1;
     display: grid;
@@ -38,18 +42,46 @@
 
 .ContainerZG{
     width: 1539px;
-    height: 684;
+    height: 668px;
     /* border: 1px solid #fff; */
     margin: auto;
-
+    /* clear: both; */
+    text-align: center;
 }
 
 .ArticleZG{
     border: 1px solid var(--yellow);
     display: inline-block;
-    width: 260px;
+    width: 300px;
     height: 300px;
     margin-left: 2rem;
     margin-bottom: 2rem;
     background-color: rgba(116, 152, 210, 0.9);
+    clear: both;
+
+}
+.ArticleZG h2{
+    float: left;
+    margin: 1rem 1rem 0 1rem;
+
+}
+.ArticleZG h3{
+    float: left;
+    margin: 1rem 1rem 0 1rem;
+}
+.ArticleZG p{
+    float: left;
+}
+
+@media screen and (max-width: 1487px) {
+    .ContainerZG{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ArticleZG{
+        margin-left: auto;
+    }
 }

@@ -1,0 +1,143 @@
+﻿Cel programistyczny: Program został stworzony w celu zautomatyzowania procesu raportowania warunków atmosferycznych na jednej z budów. 
+
+
+Podczas uruchomienia programu należy wybrać czy załadować panel do pracy z danymi czy pozostawić w trybie pobierania danych (program będzie aktualizował dane co 15 min i podawał aktualne warunki atmosferyczne oraz uzupełniał dane archiwalne). Wszystkie dane pogodowe są uzupełniane przez program z dokładnością do 15min.
+
+
+
+
+Do uruchomienia programu należy zaczekać do 5 aż aplikacja pobierze dane potrzebne do pracy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We wczytanym menu dostępne są opcje
+Dane pogodowe – wybór narzędzi do obsługi danych temperatury i opadów 
+Operacje na plikach  -  wczytanie pobranych danych w różnych wariantach i wczytanie ich z poziomu konsoli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dane pogodowe – dostępne opcje i przykładowe wyniki dla wybranego okresu:
+
+Średnia temperatura dla dnia 10.12.2018 w Pruszkowie.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Średni opad dla przedziału czasowego 8-13.12.2018r na terenie Pruszkowa.
+
+
+
+
+
+
+
+
+
+
+
+Operacje na plikach:
+
+Przykładowy wydruk pobranych danych z dla podanego zakresu z poziomu konsoli.
+Aplikacja pobiera dane i sortuje wyniki do plików w formacie CSV. Plik można otworzyć (np. za pomocą Exela) i edytować wówczas program będzie podawał raporty danych na zmienionych plikach. 
+
+
+
+
+Uwaga: 
+1.Aby uruchomić aplikację należy zainstalować środowisko Pythona i pobrać kod źródłowy z  profilu wolfkitten na platformie github.
+2. zainstalować bibliotekę lxlm
+3. Uzupełnione Dane pogodowe w plikach CSV dostępne są również na profilu 
